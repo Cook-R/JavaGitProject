@@ -1,4 +1,14 @@
+
 .metadata
 .settings
 *
 *.iml
+
+.idea
+.settings
+/.metadata
+/pinyougou-parent/.settings
+/dubboxdemo-service/.settings
+/dubboxdemo-web/.settings
+/Servers/.settings
+
