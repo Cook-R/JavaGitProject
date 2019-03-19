@@ -1,3 +1,7 @@
+.metadata
+.settings
+*
+*.iml
 .idea
 .settings
 /.metadata
