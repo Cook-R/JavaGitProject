@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;cn.itcast.crm.action.CustomerAction.custId&apos; in &apos;cn.itcast.crm.action.CustomerAction&apos;&#x0D;&#x0A;- Original project: &apos;maven-first&apos;&#x0D;&#x0A;- Original element: &apos;cn.itcast.crm.action.CustomerAction.custId&apos;&#x0D;&#x0A;- Getter method name: &apos;getCustId&apos;&#x0D;&#x0A;- Setter method name: &apos;setCustId&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;custId&apos;" flags="589830" getter="getCustId" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;cn.itcast.crm.action{CustomerAction.java[CustomerAction^custId" insertion="-1" setter="setCustId" stamp="1549974765082" version="1.0" visibility="1"/>
+</session>
