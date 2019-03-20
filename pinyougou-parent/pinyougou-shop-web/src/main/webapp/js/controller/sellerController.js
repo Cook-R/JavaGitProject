@@ -52,14 +52,13 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 	}
 	
 	
-	//保存 
-	$scope.add=function(){				
-		var serviceObject;//服务层对象  				
-		
-		sellerService.add( $scope.entity).success(
+	//新增 
+	$scope.add=function(){
+		sellerService.add( $scope.entity  ).success(
 			function(response){
 				if(response.success){
-					location.href='shoplogin.html';
+					//如果注册成功，跳转到登录页
+		        	location.href="shoplogin.html";
 				}else{
 					alert(response.message);
 				}
